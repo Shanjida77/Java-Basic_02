@@ -10,12 +10,10 @@ public class SumOfDigits {
 		Scanner in = new Scanner(System.in);
 		n = in.nextInt();
 
-		i = 0;
 		while (n != 0) {
 			rem = n % 10;
 			sum = sum + rem;
 			n = n / 10;
-			i++;
 		}
 		System.out.print("Sum of digits is: " + sum);
 	}
